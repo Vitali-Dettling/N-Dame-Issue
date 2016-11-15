@@ -1,0 +1,20 @@
+﻿Der Buildvorgang wurde am 15.04.2011 10:18:43 gestartet.
+     1>Projekt "C:\Users\Pepe Le Pew\Documents\FH Offenburg\1.Semester\C_Programmierung_1_Semester\n_damen\n_Dame Mappe\n_Dame\n_Dame.vcxproj" auf Knoten "3", build Ziel(e).
+     1>InitializeBuildStatus:
+         "Debug\n_Dame.unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+       ClCompile:
+         Alle Ausgaben sind aktuell.
+       ManifestResourceCompile:
+         Alle Ausgaben sind aktuell.
+       Link:
+         Alle Ausgaben sind aktuell.
+       Manifest:
+         Alle Ausgaben sind aktuell.
+       FinalizeBuildStatus:
+         Die Datei "Debug\n_Dame.unsuccessfulbuild" wird gelöscht.
+         Aktualisieren des Timestamps von "Debug\n_Dame.lastbuildstate".
+     1>Die Erstellung des Projekts "C:\Users\Pepe Le Pew\Documents\FH Offenburg\1.Semester\C_Programmierung_1_Semester\n_damen\n_Dame Mappe\n_Dame\n_Dame.vcxproj" ist abgeschlossen, build Ziel(e).
+
+Das Erstellen war erfolgreich.
+
+Verstrichene Zeit 00:00:00.12

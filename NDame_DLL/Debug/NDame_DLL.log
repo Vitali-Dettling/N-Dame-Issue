@@ -1,0 +1,20 @@
+﻿Der Buildvorgang wurde am 18.12.2010 14:46:25 gestartet.
+     1>Projekt "C:\Users\Pepe Le Pew\Desktop\C_Programmierung_1_Semester\n_damen\n_Dame Mappe\NDame_DLL\NDame_DLL.vcxproj" auf Knoten "2", rebuild Ziel(e).
+     1>_PrepareForClean:
+         Die Datei "Debug\NDame_DLL.lastbuildstate" wird gelöscht.
+       InitializeBuildStatus:
+         Aktualisieren des Timestamps von "Debug\NDame_DLL.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../NDame_DLL.lib /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D NDAME_DLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt NDame_DLL.c
+         NDame_DLL.c
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\NDame_DLL.dll.embed.manifest.res" Debug\NDame_DLL_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Pepe Le Pew\Desktop\C_Programmierung_1_Semester\n_damen\n_Dame Mappe\Debug\NDame_DLL.dll" /INCREMENTAL /NOLOGO ../Debug/NDame_DLL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\NDame_DLL.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Pepe Le Pew\Desktop\C_Programmierung_1_Semester\n_damen\n_Dame Mappe\Debug\NDame_DLL.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Pepe Le Pew\Desktop\C_Programmierung_1_Semester\n_damen\n_Dame Mappe\Debug\NDame_DLL.lib" /MACHINE:X86 /DLL Debug\NDame_DLL.dll.embed.manifest.res
+         Debug\NDame_DLL.obj
+     1>LINK : fatal error LNK1104: Datei "../Debug/NDame_DLL.lib" kann nicht geöffnet werden.
+     1>Die Erstellung des Projekts "C:\Users\Pepe Le Pew\Desktop\C_Programmierung_1_Semester\n_damen\n_Dame Mappe\NDame_DLL\NDame_DLL.vcxproj" ist abgeschlossen, rebuild Ziel(e) -- FEHLER.
+
+Fehler beim Erstellen
+
+Verstrichene Zeit 00:00:00.41

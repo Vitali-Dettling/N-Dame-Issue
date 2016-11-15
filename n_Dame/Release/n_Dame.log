@@ -1,0 +1,43 @@
+﻿Der Buildvorgang wurde am 11.01.2011 16:17:05 gestartet.
+     1>Projekt "C:\Users\Pepe Le Pew\Desktop\C_Programmierung_1_Semester\n_damen\n_Dame Mappe\n_Dame\n_Dame.vcxproj" auf Knoten "3", build Ziel(e).
+     1>InitializeBuildStatus:
+         "Release\n_Dame.unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../save_DLL /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt calc_NQueens.c isattacking.c main.c print_board.c print_menu.c print_status.c
+         calc_NQueens.c
+     1>calc_NQueens.c(79): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(130): Siehe Deklaration von 'kbhit'
+     1>calc_NQueens.c(111): warning C4244: '=': Konvertierung von 'double' in 'int', möglicher Datenverlust
+         isattacking.c
+     1>isattacking.c(29): warning C4101: 'z': Unreferenzierte lokale Variable
+         main.c
+     1>main.c(45): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         print_board.c
+     1>print_board.c(85): warning C4244: 'Funktion': Konvertierung von 'double' in 'short', möglicher Datenverlust
+         print_menu.c
+         print_status.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Pepe Le Pew\Desktop\C_Programmierung_1_Semester\n_damen\n_Dame Mappe\Release\n_Dame.exe" /INCREMENTAL:NO /NOLOGO ../Release/save_DLL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\n_Dame.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Pepe Le Pew\Desktop\C_Programmierung_1_Semester\n_damen\n_Dame Mappe\Release\n_Dame.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Pepe Le Pew\Desktop\C_Programmierung_1_Semester\n_damen\n_Dame Mappe\Release\n_Dame.lib" /MACHINE:X86 Release\calc_NQueens.obj
+         Release\isattacking.obj
+         Release\main.obj
+         Release\print_board.obj
+         Release\print_menu.obj
+         Release\print_status.obj
+         Release\Utilities.obj
+         utilities.lib
+         Code wird generiert.
+     1>c:\users\pepe le pew\desktop\c_programmierung_1_semester\n_damen\n_dame mappe\n_dame\print_status.c(118): warning C4716: 'print_status': Muss einen Wert zurückgeben
+     1>c:\users\pepe le pew\desktop\c_programmierung_1_semester\n_damen\n_dame mappe\n_dame\print_menu.c(182): warning C4716: 'print_menu': Muss einen Wert zurückgeben
+     1>c:\users\pepe le pew\desktop\c_programmierung_1_semester\n_damen\n_dame mappe\n_dame\print_board.c(110): warning C4716: 'print_board': Muss einen Wert zurückgeben
+         Codegenerierung ist abgeschlossen.
+         n_Dame.vcxproj -> C:\Users\Pepe Le Pew\Desktop\C_Programmierung_1_Semester\n_damen\n_Dame Mappe\Release\n_Dame.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Pepe Le Pew\Desktop\C_Programmierung_1_Semester\n_damen\n_Dame Mappe\Release\n_Dame.exe;#1" /manifest Release\n_Dame.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Die Datei "Release\n_Dame.unsuccessfulbuild" wird gelöscht.
+         Aktualisieren des Timestamps von "Release\n_Dame.lastbuildstate".
+     1>Die Erstellung des Projekts "C:\Users\Pepe Le Pew\Desktop\C_Programmierung_1_Semester\n_damen\n_Dame Mappe\n_Dame\n_Dame.vcxproj" ist abgeschlossen, build Ziel(e).
+
+Das Erstellen war erfolgreich.
+
+Verstrichene Zeit 00:00:03.20
